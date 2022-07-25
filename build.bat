@@ -1,4 +1,3 @@
-rmdir /S/Q release
 rmdir /S/Q pack
 xcopy src pack /E/H/C/I
 xcopy assets pack\assets /E/H/C/I

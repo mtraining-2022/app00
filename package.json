@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "src/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "make:win": ".\\build.bat",
+    "make:linux": "./build.sh"
   },
   "devDependencies": {
     "electron": "^19.0.8"
