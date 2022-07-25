@@ -1,3 +1,3 @@
-cd pack
+cd out
 npm install
 cd ..

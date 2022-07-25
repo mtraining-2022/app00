@@ -1,7 +1,6 @@
-rm -rd release/
-rm -rd pack/
-cp -r src pack
-cp -r assets pack
-cp assets/package.json pack
-(cd pack && npm install)
-npx electron-builder --project pack
+rm -rd out/
+cp -r src out
+cp -r assets out
+cp assets/package.json out
+(cd out && npm install)
+npx electron-builder --project out
